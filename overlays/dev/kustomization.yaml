@@ -3,3 +3,6 @@ kind: Kustomization
 resources:
   - ../../base/
 namespace: dev
+images:
+  - name: gcr.io/heptio-images/ks-guestbook-demo
+    newTag: "0.2"
